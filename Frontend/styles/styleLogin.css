@@ -1,0 +1,130 @@
+/****************ESTILOS GENERALES****************/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contenedorPrincipal{
+    max-width: 1500px;
+    margin: 0px auto;
+    min-height: 600px;
+    background-image: url(../img/mazatlans.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: fixed;
+
+}
+
+body{
+
+}
+
+/************FUENTES************/
+@font-face{
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico-Regular.ttf");
+
+}
+
+
+
+/*****************ESTILOS ENCABEZADO***************/
+#header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    flex-wrap: wrap;
+    background-color: rgb(26, 219, 210);
+    line-height: 80px;
+    font-family: "Pacifico";
+    color: rgb(235, 235, 235);
+    font-weight: 200;
+    
+}
+
+/*LOGOTIPO*/
+.logo{
+    background-image: url("../img/logoCarpaAzul.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 100%;
+    margin-left: auto;
+
+}
+
+#header h1{
+    flex-basis: 91%;
+    margin-left: 10px;
+}
+
+
+/****************ESTILOS INICIO DE SESION***************/
+#contenedorIniciarSesion{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 200px;
+    min-height: 280px;
+    text-align: center;
+    box-shadow: 0px 0px 6px rgb(175, 175, 175);
+    border-radius: 4px;
+    margin-top:50px ;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+/*FORMULARIO INICIO DE SESION*/
+#inicioSesion{
+    width: 100%;
+    height: 100%; 
+
+}
+
+#inicioSesion input{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    background-color: #ffebeb;
+    color: rgb(194, 194, 194);
+}
+
+#inicioSesion button{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    width: 60%;
+    background-color: #ebebeb;
+    color: rgb(29, 29, 29);
+    font-family: sans-serif;
+
+}
+
+#inicioSesion button:hover{
+    border-radius: 4px;
+    background-color: rgb(37, 209, 152);
+    color: #ffe8e8;
+    cursor: pointer;
+    font-family: "Pacifico";
+    transition: all 2000ms;
+    box-shadow: 0px 0px 1px #cccccc inset;
+}
+
+
+
+/*AVATAR USUARIO*/
+#contenedorIniciarSesion #avatarUsuario{
+    
+    background-image: url(../img/iconoUsuario.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px ;
+    }
+

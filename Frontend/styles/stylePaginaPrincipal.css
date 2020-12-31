@@ -1,0 +1,161 @@
+/**********FUENTES*************/
+@font-face{
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+/**********ESTILOS GENERALES********/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedorPrincipal{
+    margin: 0px auto;
+    width: 1800px;
+}
+a{
+    text-decoration: none;
+}
+
+/********ENCABEZADO***********/
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+    background-color: aquamarine;
+}
+
+header h1{
+    margin-left: auto;
+    font-family: "Pacifico";
+    margin-right: 10px;
+    
+}
+
+header #btnMenu{
+    width: 8%;
+    background-color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 2px;
+}
+
+header #btnMenu:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px inset;
+}
+
+/*******CONTENIDO PRINCIPAL*********/
+/*ESTILOS GENERALES MENU*/
+#contenidoPrincipal{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 600px;
+    margin: 0px auto;
+    margin-top: 60px;
+    
+}
+
+.tarjetaMenu{
+    width: 300px;
+    height: 120px;
+    margin-bottom: 60px;
+    border-radius: 4px;
+}
+
+.tarjetaMenu:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 1px inset;
+    background-color: rgb(224, 224, 224);
+    transition: all 250ms;
+    
+    
+}
+.tarjetaMenu:hover .descripcionTarjeta{
+    cursor: pointer;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 2px inset;
+
+}
+
+.tarjetaMenu .descripcionTarjeta{
+    background-color: rgb(167, 167, 167);
+    height: 50px;
+    text-align: end;
+    padding-right: 8px;
+    border-radius: 4px;
+    line-height: 50px;
+    
+}
+
+.tarjetaMenu .descripcionTarjeta a{
+   color: rgb(44, 43, 43);
+   font-family: sans-serif;
+   font-size: larger;
+   font-weight: bold;
+    
+}
+
+
+
+/*IMAGENES MENU*/
+
+#tarjetaPuntoVenta{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/puntoDeVentata.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#tarjetaVentas{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/reporteVentas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#tarjetaUsuarios{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/usuarios.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#tarjetaGestionMenu{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/gestionMenu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#tarjetaInventario{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/inventario.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#tarjetaCerrarSesion{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cerrarSesion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+

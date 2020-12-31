@@ -1,0 +1,64 @@
+/**********FUENTES*************/
+@font-face{
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+/**********ESTILOS GENERALES********/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedorGeneral{
+    margin: 0px auto;
+    width: 1800px;
+}
+a{
+    text-decoration: none;
+}
+
+/********ENCABEZADO***********/
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+    background-color: aquamarine;
+}
+
+header h1{
+    
+    font-family: "Pacifico";
+    margin-right: 10px;
+    
+}
+
+header #btnMenu{
+    width: 8%;
+    background-color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 2px;
+}
+
+header #btnMenu:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px inset;
+}
+
+/*********CONTENIDO PRINCIPAL***********/
+#contenidoPrincipal{
+    display: flex;
+    margin: 0px auto;
+}
+
+/*****CONTENEDOR TABLA******/
+
+
+/*TABLA*/
+
+
+/*CONTENEDOR*/
+
+
