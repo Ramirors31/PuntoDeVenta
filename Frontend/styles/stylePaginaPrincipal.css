@@ -18,6 +18,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    background-color: rgb(235, 235, 235);
+}
+
 /********ENCABEZADO***********/
 header{
     width: 100%;

@@ -13,7 +13,7 @@
         <!--INICIO HEADER-->
         <header id="header">
 
-            <button id="btnMenu"> Menu </button>
+            <a href="../src/paginaPrincipal.html"><button id="btnMenu"> Menu </button></a>
 
             <h1>La Carpa Azul</h1>
 
@@ -59,6 +59,7 @@
 
             <div id="contenedorElementos">
 
+                <section id="elementos">
                     <h1>Gestion Menu</h1>
                     <h2>Busqueda</h2>
                     <label >Platillo</label>
@@ -68,22 +69,67 @@
                     <button class="btn">Modificar</button>
                     <button class="btn">Eliminar2</button>
 
+                </section>
+
+                <section id="contenedorFormularios">
+                    <form class="formulario">
+                        <h2>Añadir un producto Nuevo</h2>
+                        <label>Nombre del Producto</label>
+                        <input type="text" placeholder="Producto">
+                        <label> Tipo </label>
+                        <select name="p" id="tipóProducto">
+                            <option >Pescado</option>
+                            <option >Camarones</option>
+                            <option >Pulpo</option>
+                            <option >Atun</option>
+                            <option >Cocteles</option>
+                            <option >Caldos</option>
+                            <option >Especialidades</option>
+                            <option >Tacos</option>
+                        </select>
+                        <label >Descripcion</label>
+                        <input type="text" placeholder="Descripcion Breve">
+                        <label> Precio</label>
+                        <input type="text" placeholder="$00.00">
+                        <button btnAñadir>Añadir Platillo</button>
+                        
+                    </form>
+
+                    <form class="formulario">
+                        <h2>Modificar Producto Existente</h2>
+                        <label>Nombre del Producto</label>
+                        <input type="text" placeholder="Producto">
+                        <label> Tipo </label>
+                        <select name="p" id="tipóProducto">
+                            <option >Pescado</option>
+                            <option >Camarones</option>
+                            <option >Pulpo</option>
+                            <option >Atun</option>
+                            <option >Cocteles</option>
+                            <option >Caldos</option>
+                            <option >Especialidades</option>
+                            <option >Tacos</option>
+                        </select>
+                        <label >Descripcion</label>
+                        <input type="text" placeholder="Descripcion Breve">
+                        <label> Precio</label>
+                        <input type="text" placeholder="$00.00">
+                        <button btnAñadir>Modificar Platillo</button>
+                        
+                    </form>
+    
+    
+                </section>
+
             </div>
 
-            <div id="contenedorDescripcion">
+            <!--INICIO FORMULARIOS-->
 
 
-
-            </div>
 
         </div>
 
-
         <!--FIN CONTENIDO PRINCIPAL-->
-
-
-
-
 
     </div>
     

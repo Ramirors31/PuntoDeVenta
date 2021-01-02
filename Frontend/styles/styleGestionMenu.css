@@ -8,11 +8,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 #contenedorGeneral{
     margin: 0px auto;
-    width: 1800px;
+    width: 1260px;
 }
 a{
     text-decoration: none;
@@ -25,12 +26,14 @@ header{
     height: 100px;
     line-height: 100px;
     background-color: aquamarine;
+    margin-bottom: 10px;
 }
 
 header h1{
     
     font-family: "Pacifico";
     margin-right: 10px;
+    margin-left: auto;
     
 }
 
@@ -50,15 +53,186 @@ header #btnMenu:hover{
 /*********CONTENIDO PRINCIPAL***********/
 #contenidoPrincipal{
     display: flex;
+    flex-wrap: wrap;
     margin: 0px auto;
 }
 
 /*****CONTENEDOR TABLA******/
+#contenedorTabla{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
 
 
 /*TABLA*/
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 90%;
+    
+    
+}
+
+th,td{
+    padding: 20px;
+}
+
+thead{
+    background-color: rgb(41, 212, 155);
+    color: rgb(221, 221, 221);
+    border-bottom: solid 2px rgb(160, 160, 160);
+}
+
+tr:nth-child(even){
+    background-color: rgb(179, 179, 179);
+}
+
+tr:hover{
+    background-color: rgb(2, 155, 104); 
+    color: white;
+    cursor: pointer;
+}
 
 
-/*CONTENEDOR*/
+/*CONTENEDOR ELEMETOS BUSQUEDA Y ACCIONES*/
+#contenedorElementos{
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#elementos{
+    width: 100%;
+    flex-direction: column;
+    margin: 0px auto;
+    min-height: 350px;
+    
+}
+
+#elementos h1{
+    height: 60px;
+    flex-basis: 100%;
+    background-color: rgb(41, 212, 155);
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 5px;
 
 
+}
+
+#elementos h2{
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+
+}
+
+#elementos label{
+    margin-left: 10px;
+    font-size: larger;
+}
+
+#elementos input{
+    padding: 5px;
+    border-radius: 4px;
+    border: solid 1px rgb(175, 175, 175);
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+
+#elementos button{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: rgb(255, 249, 242);
+    border: 2px solid rgb(39, 39, 39);
+}
+
+#elementos button:hover{
+    background-color: rgb(4, 212, 143);
+    color: white;
+    cursor: pointer;
+
+}
+
+/**********FORMULARIOS************/
+#contenedorFormularios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+
+/*FORMULARIO PLATILLO NUEVO*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.formulario h2{
+    height: 60px;
+    flex-basis: 100%;
+    background-color: rgb(41, 212, 155);
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+
+
+.formulario label{
+    margin-left: 10px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.formulario input{
+    padding: 5px;
+    border-radius: 4px;
+    border: solid 1px rgb(175, 175, 175);
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.formulario button{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: rgb(255, 249, 242);
+    border: 2px solid rgb(39, 39, 39);
+}
+
+.formulario select{
+    width: 30%;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid 1px rgb(175,175,175);
+    margin-left: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.formulario button:hover{
+    background-color: rgb(4, 212, 143);
+    color: white;
+    cursor: pointer;
+
+}
